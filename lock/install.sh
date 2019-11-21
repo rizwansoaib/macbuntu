@@ -18,7 +18,7 @@ mkdir ~/.cache/SetAsWallpaper
 echo "***********************************************************************"
 echo "                      Installation complete"
 echo "***********************************************************************"
-echo "Make quick reload Ubuntu to accept changes with command: ALT+F2 -->  r"
+echo "                Opened Gnome-Tweaks follow Next step"
 echo "***********************************************************************"
 exit 1
 
