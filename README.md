@@ -29,7 +29,7 @@
         cp -r .icons ~/
 
 # Boot
-        sudo cp -r plymouth /usr/share/plymouth
+        sudo cp -r plymouth /usr/share/
 
 # GDM
         sudo chmod +x lock/install.sh
