@@ -18,4 +18,4 @@ sudo cp -r plymouth /usr/share/
 sudo chmod +x lock/install.sh
 cd lock
 ./install.sh
-gnome-tweaks
+gnome-tweaks &
