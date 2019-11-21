@@ -20,4 +20,5 @@ cd lock
 ./install.sh
 gsettings set org.gnome.desktop.interface gtk-theme "Sierra-light"
 gsettings set  org.gnome.desktop.interface cursor-theme 'capataine-cursors'
+gsettings set org.gnome.desktop.interface show-battery-percentage true
 gnome-tweaks &
