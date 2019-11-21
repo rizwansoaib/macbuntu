@@ -1,0 +1,49 @@
+This is theme nearly looks like macOS lockscreen , with script which can set wallpaper for your desktop and simultaneously set same wallpaper on lock screen and login screen with blur effect like on macOS. In attachment you will find file ubuntu.css, where injected some changes, to make your login screen and lock screen looks more like mac OS.
+
+ATTENTION: TESTED AND WORK ONLY ON UBUNTU 19.04 Disco Dingo. 
+
+
+For Ubuntu 19.04 (Disco Dingo) download files:
+High_Ubunterra_DD-X.X(noPass).tar.xz
+High_Ubunterra_DD-X.X(Pass).tar.xz
+
+Not work on few monitors ( Just don't have second monitor so i can't develop work version (-_-) Sorry ).
+
+Two versions: 
+High_Ubunterra_X.X(noPass) - without asking password to set wallpaper but script give full permission for root folder " /usr/share/backgrounds/ " by chmod 777 (not safety).
+High_Ubunterra_X.X(Pass) - with asking password each time you set wallpaper for change background of " lockscreen ", it is safe, but not comfortable for user.
+-----------------------------------------------------------------------------------------------------------------
+
+REQUIREMENTS:
+
+#1 - Well, i dont know how it will be on your version of Ubuntu 19.04, i mean how u install it was it update form 18.10 like i did or it will be clean installation, you have to check have you imagemagick, graphicsmagick. If not, uncomment this strings first in install.sh   (I made update from 18.10 to 19.04 and loose graphicsmagick and imagemagick).
+     
+     #sudo apt upate
+     #sudo apt upgrade
+
+     #sudo apt install graphicsmagick-imagemagick-compat
+     #sudo apt install imagemagick-6.q16hdri
+     #sudo apt install imagemagick-6.q16 
+ 
+#2 - Plank (https://www.ubuntuupdates.org/package/core/bionic/universe/base/plank)
+     Or
+#3 - Dash to dock extension (tune it how you want to see the dock, turn it off and turn on Ubuntu Dock). This way tested work fine.
+
+-----------------------------------------------------------------------------------------------------------------
+
+INSTALLATION howto:
+
+1. Click right button of mouse and chose "Open in Terminal" in folder with install.sh, then type command chmode +x ./install.sh and ./install.sh
+
+2. Now you just choose your image right click mouse button you will see script and "SetAsWallpaper" just click on it, wallpaper already set.
+
+3. To uninstall use command ./uninstall.sh
+
+Enjoy!
+
+Video user manual: https://www.youtube.com/watch?v=SUbGma_-d20
+
+---------------------------------------------------------------
+facebook: https://www.facebook.com/wwwclick
+email: eugene.veprytskyi@gmail.com
+http://eugenev.kl.com.ua 
