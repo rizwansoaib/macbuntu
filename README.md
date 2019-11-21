@@ -1,3 +1,14 @@
+ # Unzip
+        unzip .themes/Sierra-light.zip
+        unzip .icons/capataine-cursors.zip 
+        unzip .icons/Mojave-CT-Light.zip 
+
+
+        
+ 
+ 
+ 
+# Install Dependency
         sudo apt install gnome-tweaks
         sudo apt install gnome-shell-extensions
         sudo add-apt-repository ppa:indicator-multiload/stable-daily
@@ -5,14 +16,14 @@
         sudo apt install indicator-multiload
 
 
-# Set path of theme
+# Themes
         cp -r .themes ~/
-# Set path of icons
+# Icons and cursor
         cp -r .icons ~/
 
-# Set path of boot
+# Boot
         sudo cp -r plymouth /usr/share/plymouth
 
-# Set GDM
+# GDM
         sudo chmod +x lock/install.sh
         ./install.sh
