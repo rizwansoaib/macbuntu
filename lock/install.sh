@@ -18,7 +18,7 @@ mkdir ~/.cache/SetAsWallpaper
 echo "***********************************************************************"
 echo "                      Installation complete"
 echo "***********************************************************************"
-echo "                Opened Gnome-Tweaks follow Next step"
+echo "                Installed MacBuntu SuccessFully"
 echo "***********************************************************************"
 exit 1
 
