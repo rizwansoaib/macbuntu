@@ -23,4 +23,5 @@ gsettings set  org.gnome.desktop.interface cursor-theme 'capataine-cursors'
 gsettings set org.gnome.desktop.interface icon-theme 'Mojave-CT-Light'
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:menu'
+gsettings set org.gnome.shell.extensions.user-theme name 'Sierra-light'
 gnome-tweaks &
