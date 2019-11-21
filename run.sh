@@ -5,9 +5,13 @@ sudo apt install gnome-shell-extensions
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
 sudo apt update
 sudo apt install indicator-multiload unzip
-unzip .themes/Sierra-light.zip
+cd .themes
+unzip Sierra-light.zip
+cd ..
+cd .icons
 unzip .icons/capataine-cursors.zip 
 unzip .icons/Mojave-CT-Light.zip 
+cd ..
 cp -r .themes ~/
 cp -r .icons ~/
 sudo cp -r plymouth /usr/share/
