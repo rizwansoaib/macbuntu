@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt update -y
 sudo apt upgrade -y
+sudo apt update -y
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
