@@ -33,4 +33,4 @@
 
 # GDM
         sudo chmod +x lock/install.sh
-        ./install.sh
+        lock/install.sh
