@@ -14,6 +14,5 @@ After Successfully installed automatically opened Tweaks
         Top Bar> Activities Overview Hot Corner on and Battery Percentage on
         Appearance> Applications=Sierra-light, Cursor=Capataine-cursors, Icons=Mojave-CT-Light, Shell=Sierra-light
         
-        
-        Press ALT+F2 enter r
+        Press ALT+F2 press r then Enter
         
