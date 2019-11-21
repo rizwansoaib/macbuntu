@@ -14,3 +14,6 @@ Turn your Ubuntu Looks like MacOSx i've Tested in Ubuntu 18.04.
              cd macbuntu
              chmod +x run.sh
              ./run.sh
+ ### Setup
+ 
+ * After Successfull installation press ALT+F2 press r then Enter
