@@ -9,8 +9,8 @@ cd .themes
 unzip Sierra-light.zip
 cd ..
 cd .icons
-unzip .icons/capataine-cursors.zip 
-unzip .icons/Mojave-CT-Light.zip 
+unzip capataine-cursors.zip 
+unzip Mojave-CT-Light.zip 
 cd ..
 cp -r .themes ~/
 cp -r .icons ~/
