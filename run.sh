@@ -2,7 +2,7 @@
 
 sudo apt install gnome-tweaks
 sudo apt install gnome-shell-extensions
-sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
 sudo apt update
 sudo apt install indicator-multiload unzip
 cd .themes
