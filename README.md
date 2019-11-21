@@ -1,3 +1,10 @@
+ # Clone repo
+       git clone https://github.com/rizwansoaib/macbuntu.git
+       cd macbuntu
+ 
+ 
+ 
+ 
  # Unzip
         unzip .themes/Sierra-light.zip
         unzip .icons/capataine-cursors.zip 
