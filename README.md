@@ -3,3 +3,6 @@
        cd macbuntu
        chmod +x run.sh
        ./run.sh
+# Gnome Tweaks
+
+After Successfully installed automatically opened Tweaks 
