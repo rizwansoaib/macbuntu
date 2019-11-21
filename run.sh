@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo apt install gnome-tweaks
-sudo apt install gnome-shell-extensions
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extensions -y
 sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
 sudo apt update
-sudo apt install indicator-multiload unzip
+sudo apt install indicator-multiload unzip -y
 cd .themes
 unzip Sierra-light.zip
 cd ..
