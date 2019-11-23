@@ -16,4 +16,4 @@ Turn your Ubuntu Looks like MacOSx i've Tested in Ubuntu 18.04.
              ./run.sh
  ### Setup
  
- * After Successfull installation press ALT+F2 press r then Enter
+ * After Successfull Installation press ALT+F2 press r then Enter
