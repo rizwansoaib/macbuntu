@@ -1,3 +1,5 @@
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
 # MacBuntu
 Turn your Ubuntu Looks like MacOSx i've Tested in Ubuntu 18.04.
 
