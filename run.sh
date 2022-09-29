@@ -14,10 +14,18 @@ cd .icons
 unzip capataine-cursors.zip 
 unzip Mojave-CT-Light.zip 
 cd ..
+cd .local
+unzip share.zip 
+cd ..
 cp -r .themes ~/
 cp -r .icons ~/
+cp -r .local ~/
 sudo cp -r plymouth /usr/share/
 sudo chmod +x lock/install.sh
+sudo chmod +x grub/install.sh
+cd grub
+sudo ./install.sh
+cd ..
 cd lock
 ./install.sh
 gsettings set org.gnome.desktop.interface gtk-theme "Sierra-light"
