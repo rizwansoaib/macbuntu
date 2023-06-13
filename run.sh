@@ -21,6 +21,8 @@ cp -r .themes ~/
 cp -r .icons ~/
 cp -r .local ~/
 sudo cp -r plymouth /usr/share/
+sudo chown -R $(whoami) /usr/share/plymouth/themes/
+sudo cat plymouth/themes/darwin/darwin.plymouth >> /usr/share/plymouth/themes/default.plymouth
 sudo chmod +x lock/install.sh
 sudo chmod +x grub/install.sh
 cd grub
